@@ -1,22 +1,35 @@
 body {
     height: 100%;
     font-family: Roboto, sans-serif;
-    margin: 0;
+    margin: 0;   
+}
+
+.row{
+    display: flex;
+}
+.column {
     display: flex;
     flex-direction: column;
 }
 
-/*  Start Header */
-.headerHero {
-    background-color: #1f2937;
-    display: flex;
-    flex-direction: column;       
+.wrap, .card p{
+    flex-wrap: wrap;
+}
+.alignCenter{
+    align-items: center
 }
 
-.header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.backgroundDark{
+    background-color: #1f2937;     
+}
+
+.lightColor
+
+
+/*  Start Header */
+
+.header, .superCard  {    
+    justify-content: space-around;    
 }
 
 .headerLogo {
@@ -25,8 +38,7 @@ body {
     font-weight: bold;
 }
 
-.linksHeader {
-    display: flex;
+.linksHeader {    
     color: #e5e7eb;
     font-size: 18px;
     list-style-type: none;
@@ -34,15 +46,12 @@ body {
     padding-left: 0;
 }
 
-.heroDiv {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
+.heroDiv {    
+    justify-content: space-evenly;        
     padding: 80px 0;
 }
 
-.heroDiv h1 {
+.h1Hero {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bold;
@@ -54,6 +63,7 @@ body {
     font-size: 18px;
     margin: 0;    
 }
+
 .divImgHero {
     padding-top: 10px;
 }
@@ -63,11 +73,8 @@ body {
     width: 400px;
 }
 
-.hero {
-    display: flex;
-    flex-wrap: wrap;
+.hero {        
     width: 450px;
-
 }
 
 .buttonHero {
@@ -83,12 +90,6 @@ body {
 /* Finish Header */
 
 /* Start Main */
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .randomInfo {
     font-size: 30px;
     font-weight: 800;
@@ -96,9 +97,7 @@ body {
     margin-top: 40px;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
+.card {   
     width: 150px
 }
 
@@ -107,21 +106,12 @@ body {
     height: auto;
     width: 150px;
 }
-
-.card p {
-    flex-wrap: wrap;
-}
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
+.cards {    
     gap: 40px;
     margin: 40px 0 60px;
 }
 
-.quotation {
-    display: flex;
-    flex-direction: column;
+.quotation {    
     background-color: #e5e7eb;
     padding: 100px 180px
 }
@@ -142,20 +132,13 @@ body {
     padding-right: 50px;
 }
 
-.lastMain {
-    display: flex;
+.lastMain {    
     height: 300px;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-
-
+    justify-content: center;    
 }
 
-.superCard {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.superCard {       
     background-color: #3882f6;
     color: white;
     border-radius: 20px;
@@ -173,8 +156,6 @@ body {
     margin: 50px;
 }
 
-
-
 .superCard h3 {
     font-size: 25px;
     margin-bottom: 0;
@@ -185,13 +166,10 @@ body {
     margin-top: 5px;
 }
 
-footer{
-    background-color:#1f2937;
+footer{    
     height:100px;
     width: 100%;
-    color:#e5e7eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color:#e5e7eb;    
+    justify-content: center;    
 }
 /* Finish Main */
