@@ -1,67 +1,75 @@
 body {
     height: 100%;
     font-family: Roboto, sans-serif;
-    margin: 0;   
+    margin: 0;
 }
 
-.row{
+.row {
     display: flex;
 }
+
 .column {
     display: flex;
     flex-direction: column;
 }
 
-.wrap, .card p{
+.wrap, .card p {
     flex-wrap: wrap;
 }
-.alignCenter{
+
+.alignCenter {
     align-items: center
 }
 
-.backgroundDark{
-    background-color: #1f2937;     
+.backgroundDark {
+    background-color: #1f2937;
 }
 
-.lightColor
-
-
-/*  Start Header */
-
-.header, .superCard  {    
-    justify-content: space-around;    
-}
-
-.headerLogo {
+.lightColor {
     color: #f9faf8;
-    font-size: 24px;
+}
+
+.lightColorText {
+    color: #e5e7eb;
+}
+
+.blueBackground {
+    background-color: #3882f6;
+}
+.bolder {
     font-weight: bold;
 }
 
-.linksHeader {    
-    color: #e5e7eb;
+/*  Start Header */
+
+.header, .superCard {
+    justify-content: space-around;
+}
+
+.headerLogo {
+    font-size: 24px;    
+}
+
+.linksHeader {
     font-size: 18px;
     list-style-type: none;
     gap: 20px;
     padding-left: 0;
 }
 
-.heroDiv {    
-    justify-content: space-evenly;        
+.heroDiv {
+    justify-content: space-evenly;
     padding: 80px 0;
 }
 
 .h1Hero {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: bold;
+    font-size: 48px;    
     margin: 0;
 }
 
 .heroDiv p {
-    color: #f9faf8;
     font-size: 18px;
-    margin: 0;    
+    margin: 0;
 }
 
 .divImgHero {
@@ -73,18 +81,15 @@ body {
     width: 400px;
 }
 
-.hero {        
+.hero {
     width: 450px;
 }
 
 .buttonHero {
-    background-color: #3882f6;
-    color: #f9faf8;
     padding: 5px 30px;
     border-radius: 8px;
     border: none;
     margin-top: 10px;
-
 }
 
 /* Finish Header */
@@ -97,7 +102,7 @@ body {
     margin-top: 40px;
 }
 
-.card {   
+.card {
     width: 150px
 }
 
@@ -106,12 +111,13 @@ body {
     height: auto;
     width: 150px;
 }
-.cards {    
+
+.cards {
     gap: 40px;
     margin: 40px 0 60px;
 }
 
-.quotation {    
+.quotation {
     background-color: #e5e7eb;
     padding: 100px 180px
 }
@@ -127,20 +133,17 @@ body {
     align-self: flex-end;
     font-family: Roboto, sans-serif;
     font-style: normal;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 30px;    
     padding-right: 50px;
 }
 
-.lastMain {    
+.lastMain {
     height: 300px;
     width: 100%;
-    justify-content: center;    
+    justify-content: center;
 }
 
-.superCard {       
-    background-color: #3882f6;
-    color: white;
+.superCard {
     border-radius: 20px;
     height: 140px;
     width: 70%;
@@ -148,8 +151,6 @@ body {
 }
 
 .buttonSuperCard {
-    background-color: #3882f6;
-    color: #f9faf8;
     padding: 10px 40px;
     border-radius: 8px;
     border: 2px solid white;
@@ -166,10 +167,9 @@ body {
     margin-top: 5px;
 }
 
-footer{    
-    height:100px;
+footer {
+    height: 100px;
     width: 100%;
-    color:#e5e7eb;    
-    justify-content: center;    
+    justify-content: center;
 }
 /* Finish Main */
